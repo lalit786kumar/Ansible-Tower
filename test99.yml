@@ -1,0 +1,7 @@
+- hosts: web
+  tasks:
+    - name: installed squid package
+      yum: 
+        name: squid
+        state: present
+        
