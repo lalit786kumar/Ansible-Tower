@@ -1,0 +1,6 @@
+- hosts: web
+  tasks:
+     - name: remove a squid package
+       yum:
+         name: squid
+         state: absent
