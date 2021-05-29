@@ -1,0 +1,7 @@
+- hosts: web
+  tasks:
+     - name: install new packages
+       yum:
+         name: wget
+         state: present
+         
