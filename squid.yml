@@ -1,0 +1,7 @@
+- hosts: web2
+  tasks:
+     - name: remove package
+       yum:
+         name: squid
+         state: absent
+         
